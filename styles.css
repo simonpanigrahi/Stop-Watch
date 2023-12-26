@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+body img{
+    filter: blur(3px);
+    z-index: -1;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: auto;
+    width: 100vw;
+    margin: 0;
+}
+#stopwatch {
+    font-size: 7em;
+    z-index: 1;
+    border: solid;
+    margin-inline:20%;
+}
+
+#controls {
+    margin-top: 20px;
+    z-index: 1;
+}
+
+button {
+    font-size: 1.2em;
+    margin: 5px;
+    padding: 10px 20px;
+    z-index: 1;
+    border-radius: 1vw;
+}
+button:hover{
+    background-color:#0000001c;
+    color: white;
+}
